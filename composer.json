@@ -1,6 +1,6 @@
 {
-    "name": "dbt/odbc-driver",
-    "description": "ODBC Driver for Laravel 12+",
+    "name": "applied-motion-systems/odbc-driver",
+    "description": "ODBC Driver for Laravel 12+ (AMS fork tracking upstream PR #45 for Laravel 13)",
     "license": "MIT",
     "authors": [
         {
@@ -24,6 +24,9 @@
         "ext-pdo": "*",
         "illuminate/support": "^12.0|^13.0",
         "illuminate/database": "^12.0|^13.0"
+    },
+    "replace": {
+        "dbt/odbc-driver": "self.version"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.69",
